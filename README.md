@@ -1,24 +1,22 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Adding bootstrap to your app 👇
+ 
+run this in the terminal:
+```bash
+yarn add bootstrap
+```
 
-Things you may want to cover:
+got to `app/assets/stylesheets/application.css` and rename the file to have the extension `.scss` instead of `.css` (we will see more about this on Thursday)
 
-* Ruby version
+add this line in the `application.scss` file 👇
 
-* System dependencies
+```scss
+@import "bootstrap/scss/bootstrap";
+```
 
-* Configuration
+### Now you can use bootstrap classes in your app 🎉
 
-* Database creation
+## Simple Form
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+To set up simple form click [here](https://github.com/plataformatec/simple_form) and follow the installation instructions (be sure to follow the ones including bootstrap!)
