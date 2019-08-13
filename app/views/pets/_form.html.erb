@@ -1,0 +1,9 @@
+<%= simple_form_for(@pet) do |f| %>
+  <%= f.input :name %>
+  <%= f.input :species, collection: Pet::SPECIES %>
+  <%= f.input :found_on, as: :date, html5: true %>
+  <%= f.submit %>
+<% end %>
+
+
+

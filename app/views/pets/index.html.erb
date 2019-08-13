@@ -1,0 +1,4 @@
+<% @pets.each do |pet| %>
+  <h3><%= link_to pet.name, pet_path(pet) %></h3>
+  <p><%= pet.days_since_found %> days ago</p>
+<% end %>
